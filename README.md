@@ -17,6 +17,8 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 * weights importance uc1.csv – CSV file with Random Forest Feature Importance Prediction Results.
 * BPCM NN v.2.0.py – Python Code of BPCM Neural Network.
 * BPCM NN testing.py – The Python Code which was made for Neural Network evaluation purposes.
+* BPCM_NN_cross-validation_testing.py –  The Python Code for testing BPCM Neural Network via Cross-Validation Method.
+* BPCM_LogReg_testing.py –  The Python Code to test the BPCM dataset using simple Logistic Regression.
 * Company A Fin Indicators.csv – CSV file with Company A data taken from FAME database.
 * Company A Fin Ratios.csv – CSV file with Company A data taken from FAME database.
 * cypher queries uc1.py – Python Code of Feature Selection in Neo4j.
@@ -35,6 +37,7 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 ation.
 * Training Data with Neo4j Feature Selection.csv – CSV File with Training Data after Feature Selection for BPCM Neural Network.
 * Training Output 2019 87.csv – CSV File with Training Output Data for BPCM Neural Network.
+
 
 
 ## Files List – Use Case 2 - Market Index Prediction (MIPCM model)
@@ -58,3 +61,4 @@ Selection.
 * Price Index Prediction v3.2.owl – OPIP Ontology RDF file (saved as OWL).
 * Processed Input Data FTSE100 1985 21.csv – CSV file with Input Date taken from external sources.
 * lstm AWE.py, ..., lstm UR.py – Python Code with single LSTMs for PIPCM.
+* ARIMAX FTSE100.py – Python Code with ARIMAX model to predict FTSE100.
