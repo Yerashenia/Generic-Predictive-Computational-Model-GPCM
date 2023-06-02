@@ -17,7 +17,7 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 * weights importance uc1.csv – CSV file with Random Forest Feature Importance Prediction Results.
 * BPCM NN v.2.0.py – Python Code of BPCM Neural Network.
 * BPCM NN testing.py – The Python Code which was made for Neural Network evaluation purposes.
-* BPCM NN cross-validation testing.py –  The Python Code for testing BPCM Neural Network via Cross-Validation Method.
+* BPCM NN cross-validation testing.py –  The Python Code for testing BPCM Neural Network using Cross-Validation Method.
 * BPCM LogReg testing.py –  The Python Code to test the BPCM dataset using simple Logistic Regression.
 * Company A Fin Indicators.csv – CSV file with Company A data taken from FAME database.
 * Company A Fin Ratios.csv – CSV file with Company A data taken from FAME database.
