@@ -14,30 +14,25 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 
 ## Files List – Use Case 1 – Companys' Bunkruptcy Prediction (BPCM model)
 
-* weights importance uc1.csv – CSV file with Random Forest Feature Importance Prediction Results.
-* BPCM NN v.2.0.py – Python Code of BPCM Neural Network.
-* BPCM NN testing.py – The Python Code which was made for Neural Network evaluation purposes.
-* BPCM NN cross-validation testing.py –  The Python Code for testing BPCM Neural Network using Cross-Validation Method.
-* BPCM LogReg testing.py –  The Python Code to test the BPCM dataset using simple Logistic Regression.
-* Company A Fin Indicators.csv – CSV file with Company A data taken from FAME database.
-* Company A Fin Ratios.csv – CSV file with Company A data taken from FAME database.
-* cypher queries uc1.py – Python Code of Feature Selection in Neo4j.
-* feature importance uc1.py – Python Code of Random Forest Feature Importance Prediction.
-* import to neo4j uc1.py – Python Code: Importing the OBP Ontology to Neo4j and Filling the Graph Database with data.
-* Input Data with Neo4j Feature Selection.csv – CSV File with Selected Data imported from Neo4j.
-* NN with neo4j feature selection.py – Python Code of BPCM Neural Network with Feature Selection.
-* OBP Ontology v.2.1.owl – OBP Ontology RDF file (saved as OWL).
-* Ratios Export.csv – CSV File with Input Data imported from Neo4j.
-* Training Data 2017 71.csv – CSV File with Training Data for BPCM Neural Network for 2017.
-* Training Data 2018 86.csv – CSV File with Training Data for BPCM Neural Network for 2018.
-* Training Data 2019 87.csv – CSV File with Training Data for BPCM Neural Network for 2019.
-* Training Data 2020 94.csv – CSV File with Training Data for BPCM Neural Network for 2020.
-* Training Data 2021 113.csv – CSV File with Training Data for BPCM Neural Network for 2021.
-* training data file after neo4j fs.py – Python Code for Training Data file after Feature Selection gener-
-ation.
-* Training Data with Neo4j Feature Selection.csv – CSV File with Training Data after Feature Selection for BPCM Neural Network.
-* Training Output 2019 87.csv – CSV File with Training Output Data for BPCM Neural Network.
-
+- `weights_importance_uc1.csv` -- CSV file containing Random Forest Feature Importance Prediction Results.
+- `BPCM_NN_v.2.0.py` -- Python Code of BPCM Neural Network.
+- `BPCM_NN_testing.py` -- The Python Code for Neural Network evaluation purposes. 
+- `Company_A_Fin_Indicators.csv` -- CSV file containing Company A data (collected from the FAME database).
+- `Company_A_Fin_Ratios.csv` -- CSV file containing Company A data (collected from the FAME database).
+- `cypher_queries_uc1.py` -- Python Code of Feature Selection in Neo4j.
+- `feature_importance_uc1.py` -- Python Code of Random Forest Feature Importance Prediction.
+- `import_to_neo4j_uc1.py` -- Python Code: Importing the OBP Ontology to Neo4j and Filling the Graph Database with data.
+- `Input_Data_with_Neo4j_Feature_Selection.csv` -- CSV File with Selected Data imported from Neo4j.
+- `NN_with_neo4j_feature_selection.py` -- Python Code of BPCM Neural Network with Feature Selection.
+- `OBP_Ontology_v.2.1.owl` -- OBP Ontology OWL file.
+- `Ratios_Export.csv` -- CSV File containing Input Data imported from Neo4j.
+- `Training_Data_2017_71.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2017.
+- `Training_Data_2018_86.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2018.
+- `Training_Data_2019_87.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2019.
+- `Training_Data_2020_94.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2020.
+- `Training_Data_2021_113.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2021.
+- `training_data_file_after_neo4j_fs.py` -- Python Code for Data file after Feature Selection generation.
+- `Training_Data_with_Neo4j_Feature_Selection.csv` -- CSV File containing Data after Feature Selection for BPCM Neural Network.
 
 
 ## Files List – Use Case 2 - Market Index Prediction (MIPCM model)
