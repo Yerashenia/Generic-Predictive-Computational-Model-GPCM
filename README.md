@@ -31,7 +31,7 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 - `Training_Data_2019_87.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2019.
 - `Training_Data_2020_94.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2020.
 - `Training_Data_2021_113.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2021.
-- `training_data_file_after_neo4j_fs.py` -- Python Code for Data file after Feature Selection generation.
+- `training_data_file_after_neo4j_fs.py` -- Python Code of Data file after Feature Selection generation.
 - `Training_Data_with_Neo4j_Feature_Selection.csv` -- CSV File containing Data after Feature Selection for BPCM Neural Network.
 
 
