@@ -25,14 +25,14 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 - `Input_Data_with_Neo4j_Feature_Selection.csv` -- CSV File with Selected Data imported from Neo4j.
 - `NN_with_neo4j_feature_selection.py` -- Python Code of BPCM Neural Network with Feature Selection.
 - `OBP_Ontology_v.2.1.owl` -- OBP Ontology OWL file.
-- `Ratios_Export.csv` -- CSV File containing Input Data imported from Neo4j.
-- `Training_Data_2017_71.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2017.
-- `Training_Data_2018_86.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2018.
-- `Training_Data_2019_87.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2019.
-- `Training_Data_2020_94.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2020.
-- `Training_Data_2021_113.csv` -- CSV File containing Complete Dataset for BPCM Neural Network for 2021.
+- `Ratios_Export.csv` -- CSV file containing Input Data imported from Neo4j.
+- `Training_Data_2017_71.csv` -- CSV file containing Complete Dataset for BPCM Neural Network for 2017.
+- `Training_Data_2018_86.csv` -- CSV file containing Complete Dataset for BPCM Neural Network for 2018.
+- `Training_Data_2019_87.csv` -- CSV file containing Complete Dataset for BPCM Neural Network for 2019.
+- `Training_Data_2020_94.csv` -- CSV file containing Complete Dataset for BPCM Neural Network for 2020.
+- `Training_Data_2021_113.csv` -- CSV file containing Complete Dataset for BPCM Neural Network for 2021.
 - `training_data_file_after_neo4j_fs.py` -- Python Code: Data file after Feature Selection generation.
-- `Training_Data_with_Neo4j_Feature_Selection.csv` -- CSV File containing Data after Feature Selection for BPCM Neural Network.
+- `Training_Data_with_Neo4j_Feature_Selection.csv` -- CSV file containing Data after Feature Selection for BPCM Neural Network.
 
 
 ## Files List – Use Case 2 - Market Index Prediction (MIPCM model)
@@ -41,12 +41,12 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 - `combined_output.csv` -- CSV file containing combined output of LSTMs generated in `main_lstms_concatenation_unit.py`.
 - `cypher_queries_uc2.py` -- Python Code containing Feature Selection in Neo4j.
 - `feature_importance_uc2.py` -- Python Code of Random Forest Feature Importance Prediction.
-- `feature_selection_from_neo4j.csv` -- CSV File containing Input Data after Feature Selection imported from Neo4j.
+- `feature_selection_from_neo4j.csv` -- CSV file containing Input Data after Feature Selection imported from Neo4j.
 - `fill_ontology_in_neo4j_uc2.py` -- Python Code: Filling the Neo4j database with Data.
 - `final_results_feature_selection_neo4j.csv` -- CSV file containing Linear Regression final results with Feature Selection.
 - `final_results.csv` -- CSV file containing Linear Regression final results (without Feature Selection).
 - `import_to_neo4j_uc2.py` -- Python Code: Importing the OMIP Ontology to Neo4j.
-- `Input_Data_from_Neo4j.csv` -- CSV File containing Data imported from Neo4j.
+- `Input_Data_from_Neo4j.csv` -- CSV file containing Data imported from Neo4j.
 - `input_data_import_from_neo4j.py` -- Python Code: Importing Input Data from Neo4j.
 - `linear_regression_feature_selection_neo4j.py` -- Python Code of PIPCM Linear Regression with Feature Selection.
 - `linear_regression.py` -- Python Code of MIPCM Linear Regression (without Feature Selection).
