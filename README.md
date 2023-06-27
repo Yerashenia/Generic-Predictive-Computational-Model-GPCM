@@ -37,23 +37,22 @@ __The pipeline:__ Raw Financial Data is fed to the Graph Database which is addit
 
 ## Files List – Use Case 2 - Market Index Prediction (MIPCM model)
 
-
-* weights importance uc2.csv – CSV file with Random Forest Feature Importance Prediction Results.
-* combined output.csv – CSV file with combined output of LSTMs generated in main.py. cypher queries uc2.py
-– Python Code of Feature Selection in Neo4j.
-* feature importance uc2.py – Python Code of Random Forest Feature Importance Prediction.
-* feature selection from neo4j.csv – CSV File with Input Data after Feature Selection imported from Neo4j.
-* fill ontology in neo4j uc2.py – Python Code: Filling the Neo4j database with Data.
-* final results feature selection neo4j.csv – CSV file with Linear Regression final results with Feature
-Selection.
-* final results.csv – CSV file with Linear Regression final results (without Feature Selection).
-* import to neo4j uc2.py – Python Code: Importing the OPIP Ontology to Neo4j.
-* Input Data from Neo4j.csv – CSV File with Data imported from Neo4j.
-* input data import from neo4j.py – Python Code: Importing Input Data from Neo4j.
-* linear regression feature selection neo4j.py – Python Code of PIPCM Linear Regression with Feature Selection.
-* linear regression.py - Python Code of PIPCM Linear Redresion (without Feature Selection).
-* main lstms concatenation unit.py – Python Code: Concatenation Unit.
-* Price Index Prediction v3.2.owl – OPIP Ontology RDF file (saved as OWL).
-* Processed Input Data FTSE100 1985 21.csv – CSV file with Input Date taken from external sources.
-* lstm AWE.py, ..., lstm UR.py – Python Code with single LSTMs for PIPCM.
-* ARIMAX FTSE100.py – Python Code with ARIMAX model to predict FTSE100.
+- `weights_importance_uc2.csv` -- CSV file containing Random Forest Feature Importance Prediction Results.
+- `combined_output.csv` -- CSV file containing combined output of LSTMs generated in `main_lstms_concatenation_unit.py`.
+- `cypher_queries_uc2.py` -- Python Code containing Feature Selection in Neo4j.
+- `feature_importance_uc2.py` -- Python Code of Random Forest Feature Importance Prediction.
+- `feature_selection_from_neo4j.csv` -- CSV File containing Input Data after Feature Selection imported from Neo4j.
+- `fill_ontology_in_neo4j_uc2.py` -- Python Code: Filling the Neo4j database with Data.
+- `final_results_feature_selection_neo4j.csv` -- CSV file containing Linear Regression final results with Feature Selection.
+- `final_results.csv` -- CSV file containing Linear Regression final results (without Feature Selection).
+- `import_to_neo4j_uc2.py` -- Python Code: Importing the OMIP Ontology to Neo4j.
+- `Input_Data_from_Neo4j.csv` -- CSV File containing Data imported from Neo4j.
+- `input_data_import_from_neo4j.py` -- Python Code: Importing Input Data from Neo4j.
+- `linear_regression_feature_selection_neo4j.py` -- Python Code of PIPCM Linear Regression with Feature Selection.
+- `linear_regression.py` -- Python Code of MIPCM Linear Regression (without Feature Selection).
+- `main_lstms_concatenation_unit.py` -- Python Code: Concatenation Unit.
+- `Price_Index_Prediction_v3.2.owl` -- OMIP Ontology RDF file (saved as OWL).
+- `Processed_Input_Data_FTSE100_1985_21.csv` -- CSV file containing Input Data taken from external sources.
+- `lstm_AWE.py, ..., lstm_UR.py` -- Python Code of single LSTMs for PIPCM.
+- `ARIMAX_FTSE100.py` -- Python Code of ARIMAX model to predict FTSE100 close prices.
+  
